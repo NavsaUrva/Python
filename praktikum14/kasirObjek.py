@@ -1,0 +1,17 @@
+from kasir import *
+print("\nTotal harus Dibayar: Rp",totalsemua)
+uang = int(input("Uang Tunai Pembeli: Rp "))
+kembalian = int(uang-totalsemua)
+print("Kembalian :",kembalian)
+
+print("\n============================================")
+print("========== S T R U K   B E L A N J A =========")
+print("==============================================")
+print("Nama\t\t:",pembeli)
+print("Beli\t\t:",porsi,makan,"( Rp", totalMakan,")")
+print("\t\t ",gelas,minum,"( Rp", totalMinuman,")")
+print("Tagihan\t\t: Rp",totalsemua)
+print("Dibayar\t\t: Rp",uang)
+print("Kembalian\t: Rp",kembalian)
+print("=============================================")
+print("=============================================")
